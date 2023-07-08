@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width:1170px;
+    margin:0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    background-color: #0f2f44;
+}
+#top{
+    font-size: 16px;
+    justify-content: space-between;
+    color:#dfe1e3;
+    padding: 18px;
+}
+menu{
+    background-color: #ffffff;
+    padding: 18px;
+}
+#menu_section{
+    justify-content: space-between;
+    align-items: center;
+}
+menu ul li a{
+    padding: 20px;
+   color: #222222;
+    font-size: 16px;
+    line-height: 24px;
+}
+#banner{
+    background-image:url(../img/Bizzency.jpg);
+    padding: 142px 0;
+    background-size: cover;
+}
+.inner_container{
+    width: 50%;
+}
+#banner .inner_container h2{
+            font-size: 50px;
+            padding-bottom: 13px;
+            line-height: 70px;
+            font-weight: 300;
+            color: #0f2f44;
+}
+#banner .inner_container h1{
+    font-size: 80px;
+    padding-bottom: 16px;
+    line-height: 70px;
+    font-weight: 800;
+    color: #0f2f44;
+}
+#banner .inner_container h3{
+    font-size: 32px;
+    line-height: 24px;
+    letter-spacing: 18px;
+    font-weight: 300;
+    color: #8484bf;
+}
+#banner .inner_container p{
+    font-size: 14px;
+    line-height: 24px;
+    padding: 32px 0;
+    color: #777c82;
+}
+#banner .inner_container a{
+    font-weight: 800;
+    list-style:24px ;
+    border-radius: 5px;
+    color:#ffffff;
+    background-color: #8484bf;
+    padding: 17px 20px;
+}
+#about{
+    background-color:#ffffff ;
+    background-image: url(../img/about.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    height: 750px;
+}
+.about_info{
+    width:50%;
+}
+.about_info h5{
+    font-size: 14px;
+    font-weight: 400;
+}
+.about_info h2{
+    font-size: 32px;
+    font-weight: 800;
+}
+.about_info p{
+    font-size: 16px;
+    padding: 28px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.about_info ul{
+    padding: 33px 30px;
+}
+.about_info li{
+    font-size: 16px;
+    line-height: 44px;
+}
+.about_info a{border: none;
+    border-radius: 5px;
+    color:#0f2f44;
+    background-color:#ffc712;
+    padding: 17px 20px;
+    margin-top: 36px;
+}
+.about_info .link_2{
+    border: none;
+    border-radius: 5px;
+    color:#0f2f44;
+    background-color:#efeeee;
+    padding: 17px 20px;
+    margin-top: 36px;
+}
+
+
+
+
+
